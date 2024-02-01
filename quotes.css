@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+  background: white;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.div{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.icons{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+}
+
+.generate{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.hello{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  
+}
+.fo{
+   border: 2px solid white;
+   padding: 30px;
+   backdrop-filter: blur(20px);
+   background-color: rgba(1, 1, 1, 0.5); 
+   color: white;
+   border-radius: 10px;
+}
+.fo img{
+    width: 100%;
+    max-width: 400px;
+}
+#new-quote-button{
+   margin-top: 5px;
+   padding: 10px;
+   border-radius: 10px;
+}
+#copy-button{
+    padding: 10px;
+   border-radius: 10px;
+}
+.author{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navbar {
+    color: rgb(255, 255, 255);
+    transition: transform 0.5s; 
+    backdrop-filter: blur(100px);
+    background: gray;
+}
+.navbar.hide {
+    transform: translateY(-100%); /* Move navbar above the viewport when hiding */
+}
